@@ -1,0 +1,116 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.gif-container {
+  display: flex;           /* Flexbox layout for side by side arrangement */
+  justify-content: center; /* Center the GIFs horizontally */
+  gap: 20px;               /* Add space between the two GIFs */
+  margin: 20px 0;          /* Add some margin around the GIFs */
+}
+
+.gif-size {
+  width: 200px;   /* Adjust the width of the GIFs */
+  height: auto;   /* Maintain the aspect ratio */
+}
+
+/* Style for the control panel */
+.control-panel {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for the roll button */
+#rollButton {
+  font-size: 18px; /* Larger font size for better visibility */
+  padding: 10px 20px; /* Larger padding for a bigger button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style for the drop-down menu */
+#diceCount {
+  font-size: 18px; /* Larger font size */
+  padding: 10px; /* Larger padding */
+  margin: 0 10px; /* Margin to space it out from other elements */
+  border: 1px solid #ccc; /* Border to make it more defined */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for the GIF container */
+.gif-container {
+  display: flex; /* Display GIFs side by side */
+  justify-content: center;
+  gap: 20px; /* Space between GIFs */
+  margin: 20px 0; /* Margin around GIFs */
+}
+
+/* Style for GIF images */
+.gif-container img {
+  width: 100px; /* Size of GIFs */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Flex container to display dice side by side */
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between dice */
+  flex-wrap: wrap; /* Allows dice to wrap to the next line if needed */
+}
+
+/* Style for each dice element */
+.dice {
+  text-align: center;
+}
+
+/* Style for dice images */
+.dice img {
+  width: 100px; /* Smaller size for dice images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the total label */
+.total-label {
+  font-size: 50px; /* Larger font size for visibility */
+  font-weight: bold; /* Make text bold */
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Margin above the label */
+}

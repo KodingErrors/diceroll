@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Roll the Dice!</h1>
+
+    <!-- Drop-down menu to select number of dice -->
+    <div class="control-panel">
+        <label for="diceCount">Number of dice:</label>
+        <select id="diceCount">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button id="rollButton" onclick="rollDice()">Roll Dice</button>
+    </div>
+
+    <!-- Container for GIFs -->
+    <div id="gifContainer" class="gif-container"></div>
+
+    <!-- Dice images that will be hidden initially and shown after rolling -->
+    <div class="dice-container">
+        <div class="dice" id="dice1" style="display: none;">
+            <p>Dice 1</p>
+            <img class="img1" src="images/dice6.png" />
+        </div>
+        <div class="dice" id="dice2" style="display: none;">
+            <p>Dice 2</p>
+            <img class="img2" src="images/dice6.png" />
+        </div>
+        <div class="dice" id="dice3" style="display: none;">
+            <p>Dice 3</p>
+            <img class="img3" src="images/dice6.png" />
+        </div>
+    </div>
+
+    <!-- Label to display the total of dice rolls -->
+    <p id="totalLabel" class="total-label">Total: 0</p>
+
+</div>
+
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+
+<footer>
+    www 🎲 App Brewery 🎲 com
+</footer>
+</html>
